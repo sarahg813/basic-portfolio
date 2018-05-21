@@ -8,6 +8,7 @@ h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* Header */
 header {
     background-color: white;
     padding-bottom: 75px;
@@ -46,9 +47,13 @@ h1 {
 #nav a:nth-child(2), a:last-child {
     padding-left: 10px;
 }
+/* End Header */
+
+/* Main Div */
 main {
     width: 960px;
     margin-top: 20px;
+    margin-bottom: 80px;
     margin-right: auto;
     margin-left: auto;
     clear: both;
@@ -69,23 +74,27 @@ main {
 #heading2 {
     border-bottom: 3px #dddddd solid;
 }
+/* End Main Div */
 
+/* Portfolio Content*/
 #about-me-info {
     margin-top: 20px;
 }
 
-img {
+#profile-picture {
     float: left;
     padding: 0 20px 20px 0;
 }
 
-p {
+#about-me-info p {
     font-size: 15px;
     line-height: 27px;
 }
+/* End Portfolio */
 
+/* Footer */
 footer {
-    position: absolute;
+    position: fixed;
     right: 0;
     left: 0;
     bottom: 0;
@@ -93,6 +102,7 @@ footer {
     width: 100%;
     background-color: #5b5b5c;
     border-top: 6px #4aaaa5 solid;
+    margin-top: 20px;
 }
 
 #copyright {
@@ -101,6 +111,7 @@ footer {
     text-align: center;
     padding-top: 30px;
 }
+/* End Footer */
 
 /* Contact Form */
 input[type=text], select, textarea {
@@ -136,3 +147,23 @@ input[type=submit]:hover {
     height: 100px;
 }
 /* End Contact Form */
+
+/* Portfolio */
+tr {
+    position: relative;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+.related-text {
+    width: 256px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-top: -62px;
+    padding: 10px 0;
+}
+/* End Portfolio */
